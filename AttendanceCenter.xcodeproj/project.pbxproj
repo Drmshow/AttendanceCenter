@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843340A71C9BDA0C0034C57D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340A61C9BDA0C0034C57D /* main.m */; };
+		843340AD1C9BDA0C0034C57D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340AC1C9BDA0C0034C57D /* ViewController.m */; };
+		843340B01C9BDA0C0034C57D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843340AE1C9BDA0C0034C57D /* Main.storyboard */; };
+		843340B21C9BDA0C0034C57D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843340B11C9BDA0C0034C57D /* Images.xcassets */; };
+		843340B51C9BDA0C0034C57D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843340B31C9BDA0C0034C57D /* LaunchScreen.xib */; };
+		843340C11C9BDA0C0034C57D /* AttendanceCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340C01C9BDA0C0034C57D /* AttendanceCenterTests.m */; };
+		843340DE1C9BDAAE0034C57D /* AttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340CC1C9BDAAE0034C57D /* AttendanceViewController.m */; };
+		843340DF1C9BDAAE0034C57D /* AttendanceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843340CD1C9BDAAE0034C57D /* AttendanceViewController.storyboard */; };
+		843340E01C9BDAAE0034C57D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340D01C9BDAAE0034C57D /* AppDelegate.m */; };
+		843340E21C9BDAAE0034C57D /* bottomYellowClick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843340D31C9BDAAE0034C57D /* bottomYellowClick@2x.png */; };
+		843340E31C9BDAAE0034C57D /* earth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843340D41C9BDAAE0034C57D /* earth@2x.png */; };
+		843340E41C9BDAAE0034C57D /* loction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843340D51C9BDAAE0034C57D /* loction@2x.png */; };
+		843340E51C9BDAAE0034C57D /* node@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843340D61C9BDAAE0034C57D /* node@2x.png */; };
+		843340E61C9BDAAE0034C57D /* triangleYellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843340D71C9BDAAE0034C57D /* triangleYellow@2x.png */; };
+		843340E71C9BDAAE0034C57D /* AttendanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340DA1C9BDAAE0034C57D /* AttendanceTableViewCell.m */; };
+		843340E81C9BDAAE0034C57D /* AttendanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843340DB1C9BDAAE0034C57D /* AttendanceTableViewCell.xib */; };
+		843340E91C9BDAAE0034C57D /* TimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843340DD1C9BDAAE0034C57D /* TimeLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843340BB1C9BDA0C0034C57D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843340991C9BDA0C0034C57D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843340A01C9BDA0C0034C57D;
+			remoteInfo = AttendanceCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843340A11C9BDA0C0034C57D /* AttendanceCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843340A51C9BDA0C0034C57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843340A61C9BDA0C0034C57D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843340AB1C9BDA0C0034C57D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		843340AC1C9BDA0C0034C57D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		843340AF1C9BDA0C0034C57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843340B11C9BDA0C0034C57D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		843340B41C9BDA0C0034C57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		843340BA1C9BDA0C0034C57D /* AttendanceCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843340BF1C9BDA0C0034C57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843340C01C9BDA0C0034C57D /* AttendanceCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttendanceCenterTests.m; sourceTree = "<group>"; };
+		843340CB1C9BDAAE0034C57D /* AttendanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceViewController.h; sourceTree = "<group>"; };
+		843340CC1C9BDAAE0034C57D /* AttendanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceViewController.m; sourceTree = "<group>"; };
+		843340CD1C9BDAAE0034C57D /* AttendanceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AttendanceViewController.storyboard; sourceTree = "<group>"; };
+		843340CF1C9BDAAE0034C57D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843340D01C9BDAAE0034C57D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843340D31C9BDAAE0034C57D /* bottomYellowClick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottomYellowClick@2x.png"; sourceTree = "<group>"; };
+		843340D41C9BDAAE0034C57D /* earth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth@2x.png"; sourceTree = "<group>"; };
+		843340D51C9BDAAE0034C57D /* loction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loction@2x.png"; sourceTree = "<group>"; };
+		843340D61C9BDAAE0034C57D /* node@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "node@2x.png"; sourceTree = "<group>"; };
+		843340D71C9BDAAE0034C57D /* triangleYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangleYellow@2x.png"; sourceTree = "<group>"; };
+		843340D91C9BDAAE0034C57D /* AttendanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceTableViewCell.h; sourceTree = "<group>"; };
+		843340DA1C9BDAAE0034C57D /* AttendanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceTableViewCell.m; sourceTree = "<group>"; };
+		843340DB1C9BDAAE0034C57D /* AttendanceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendanceTableViewCell.xib; sourceTree = "<group>"; };
+		843340DC1C9BDAAE0034C57D /* TimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineView.h; sourceTree = "<group>"; };
+		843340DD1C9BDAAE0034C57D /* TimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8433409E1C9BDA0C0034C57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843340B71C9BDA0C0034C57D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843340981C9BDA0C0034C57D = {
+			isa = PBXGroup;
+			children = (
+				843340A31C9BDA0C0034C57D /* AttendanceCenter */,
+				843340BD1C9BDA0C0034C57D /* AttendanceCenterTests */,
+				843340A21C9BDA0C0034C57D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843340A21C9BDA0C0034C57D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843340A11C9BDA0C0034C57D /* AttendanceCenter.app */,
+				843340BA1C9BDA0C0034C57D /* AttendanceCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843340A31C9BDA0C0034C57D /* AttendanceCenter */ = {
+			isa = PBXGroup;
+			children = (
+				843340CA1C9BDAAE0034C57D /* Controller */,
+				843340CE1C9BDAAE0034C57D /* Others */,
+				843340D21C9BDAAE0034C57D /* source */,
+				843340D81C9BDAAE0034C57D /* View */,
+				843340AB1C9BDA0C0034C57D /* ViewController.h */,
+				843340AC1C9BDA0C0034C57D /* ViewController.m */,
+				843340AE1C9BDA0C0034C57D /* Main.storyboard */,
+				843340B11C9BDA0C0034C57D /* Images.xcassets */,
+				843340B31C9BDA0C0034C57D /* LaunchScreen.xib */,
+				843340A41C9BDA0C0034C57D /* Supporting Files */,
+			);
+			path = AttendanceCenter;
+			sourceTree = "<group>";
+		};
+		843340A41C9BDA0C0034C57D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				843340A51C9BDA0C0034C57D /* Info.plist */,
+				843340A61C9BDA0C0034C57D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843340BD1C9BDA0C0034C57D /* AttendanceCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				843340C01C9BDA0C0034C57D /* AttendanceCenterTests.m */,
+				843340BE1C9BDA0C0034C57D /* Supporting Files */,
+			);
+			path = AttendanceCenterTests;
+			sourceTree = "<group>";
+		};
+		843340BE1C9BDA0C0034C57D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				843340BF1C9BDA0C0034C57D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843340CA1C9BDAAE0034C57D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843340CB1C9BDAAE0034C57D /* AttendanceViewController.h */,
+				843340CC1C9BDAAE0034C57D /* AttendanceViewController.m */,
+				843340CD1C9BDAAE0034C57D /* AttendanceViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		843340CE1C9BDAAE0034C57D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				843340CF1C9BDAAE0034C57D /* AppDelegate.h */,
+				843340D01C9BDAAE0034C57D /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		843340D21C9BDAAE0034C57D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				843340D31C9BDAAE0034C57D /* bottomYellowClick@2x.png */,
+				843340D41C9BDAAE0034C57D /* earth@2x.png */,
+				843340D51C9BDAAE0034C57D /* loction@2x.png */,
+				843340D61C9BDAAE0034C57D /* node@2x.png */,
+				843340D71C9BDAAE0034C57D /* triangleYellow@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		843340D81C9BDAAE0034C57D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843340D91C9BDAAE0034C57D /* AttendanceTableViewCell.h */,
+				843340DA1C9BDAAE0034C57D /* AttendanceTableViewCell.m */,
+				843340DB1C9BDAAE0034C57D /* AttendanceTableViewCell.xib */,
+				843340DC1C9BDAAE0034C57D /* TimeLineView.h */,
+				843340DD1C9BDAAE0034C57D /* TimeLineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843340A01C9BDA0C0034C57D /* AttendanceCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843340C41C9BDA0C0034C57D /* Build configuration list for PBXNativeTarget "AttendanceCenter" */;
+			buildPhases = (
+				8433409D1C9BDA0C0034C57D /* Sources */,
+				8433409E1C9BDA0C0034C57D /* Frameworks */,
+				8433409F1C9BDA0C0034C57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttendanceCenter;
+			productName = AttendanceCenter;
+			productReference = 843340A11C9BDA0C0034C57D /* AttendanceCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843340B91C9BDA0C0034C57D /* AttendanceCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843340C71C9BDA0C0034C57D /* Build configuration list for PBXNativeTarget "AttendanceCenterTests" */;
+			buildPhases = (
+				843340B61C9BDA0C0034C57D /* Sources */,
+				843340B71C9BDA0C0034C57D /* Frameworks */,
+				843340B81C9BDA0C0034C57D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843340BC1C9BDA0C0034C57D /* PBXTargetDependency */,
+			);
+			name = AttendanceCenterTests;
+			productName = AttendanceCenterTests;
+			productReference = 843340BA1C9BDA0C0034C57D /* AttendanceCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843340991C9BDA0C0034C57D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = drmshow;
+				TargetAttributes = {
+					843340A01C9BDA0C0034C57D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					843340B91C9BDA0C0034C57D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 843340A01C9BDA0C0034C57D;
+					};
+				};
+			};
+			buildConfigurationList = 8433409C1C9BDA0C0034C57D /* Build configuration list for PBXProject "AttendanceCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843340981C9BDA0C0034C57D;
+			productRefGroup = 843340A21C9BDA0C0034C57D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843340A01C9BDA0C0034C57D /* AttendanceCenter */,
+				843340B91C9BDA0C0034C57D /* AttendanceCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8433409F1C9BDA0C0034C57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843340DF1C9BDAAE0034C57D /* AttendanceViewController.storyboard in Resources */,
+				843340E41C9BDAAE0034C57D /* loction@2x.png in Resources */,
+				843340E81C9BDAAE0034C57D /* AttendanceTableViewCell.xib in Resources */,
+				843340B01C9BDA0C0034C57D /* Main.storyboard in Resources */,
+				843340E21C9BDAAE0034C57D /* bottomYellowClick@2x.png in Resources */,
+				843340B51C9BDA0C0034C57D /* LaunchScreen.xib in Resources */,
+				843340B21C9BDA0C0034C57D /* Images.xcassets in Resources */,
+				843340E51C9BDAAE0034C57D /* node@2x.png in Resources */,
+				843340E31C9BDAAE0034C57D /* earth@2x.png in Resources */,
+				843340E61C9BDAAE0034C57D /* triangleYellow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843340B81C9BDA0C0034C57D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8433409D1C9BDA0C0034C57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843340E01C9BDAAE0034C57D /* AppDelegate.m in Sources */,
+				843340E91C9BDAAE0034C57D /* TimeLineView.m in Sources */,
+				843340E71C9BDAAE0034C57D /* AttendanceTableViewCell.m in Sources */,
+				843340AD1C9BDA0C0034C57D /* ViewController.m in Sources */,
+				843340A71C9BDA0C0034C57D /* main.m in Sources */,
+				843340DE1C9BDAAE0034C57D /* AttendanceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843340B61C9BDA0C0034C57D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843340C11C9BDA0C0034C57D /* AttendanceCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843340BC1C9BDA0C0034C57D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843340A01C9BDA0C0034C57D /* AttendanceCenter */;
+			targetProxy = 843340BB1C9BDA0C0034C57D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843340AE1C9BDA0C0034C57D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843340AF1C9BDA0C0034C57D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843340B31C9BDA0C0034C57D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843340B41C9BDA0C0034C57D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843340C21C9BDA0C0034C57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		843340C31C9BDA0C0034C57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843340C51C9BDA0C0034C57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AttendanceCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.AttendanceCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843340C61C9BDA0C0034C57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AttendanceCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.AttendanceCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		843340C81C9BDA0C0034C57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AttendanceCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceCenter.app/AttendanceCenter";
+			};
+			name = Debug;
+		};
+		843340C91C9BDA0C0034C57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AttendanceCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceCenter.app/AttendanceCenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8433409C1C9BDA0C0034C57D /* Build configuration list for PBXProject "AttendanceCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843340C21C9BDA0C0034C57D /* Debug */,
+				843340C31C9BDA0C0034C57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843340C41C9BDA0C0034C57D /* Build configuration list for PBXNativeTarget "AttendanceCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843340C51C9BDA0C0034C57D /* Debug */,
+				843340C61C9BDA0C0034C57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843340C71C9BDA0C0034C57D /* Build configuration list for PBXNativeTarget "AttendanceCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843340C81C9BDA0C0034C57D /* Debug */,
+				843340C91C9BDA0C0034C57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843340991C9BDA0C0034C57D /* Project object */;
+}

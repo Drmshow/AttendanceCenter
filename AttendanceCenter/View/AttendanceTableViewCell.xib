@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="attendanceTableViewCell" rowHeight="181" id="KGk-i7-Jjw" customClass="AttendanceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="181"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="180.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NEZ-GR-4f9">
+                        <rect key="frame" x="48" y="20" width="258" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="oUm-V2-bTY"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4v-CV-11F" userLabel="bgView">
+                        <rect key="frame" x="49" y="21" width="256" height="68"/>
+                        <color key="backgroundColor" red="1" green="0.83921568627450982" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cV7-M6-lWL">
+                        <rect key="frame" x="63" y="28" width="183" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lc-I2-vy1" userLabel="timeLabel">
+                                <rect key="frame" x="0.0" y="8" width="32" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.16078431372549018" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b2-B7-dTB" userLabel="addressLabel">
+                                <rect key="frame" x="0.0" y="37" width="28" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.5490196078431373" green="0.55294117647058827" blue="0.55686274509803924" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8b2-B7-dTB" firstAttribute="top" secondItem="8lc-I2-vy1" secondAttribute="bottom" constant="10" id="94r-rd-gDh"/>
+                            <constraint firstItem="8lc-I2-vy1" firstAttribute="leading" secondItem="cV7-M6-lWL" secondAttribute="leading" id="Hd0-m8-xEf"/>
+                            <constraint firstAttribute="bottom" secondItem="8b2-B7-dTB" secondAttribute="bottom" id="OTh-L9-fwF"/>
+                            <constraint firstItem="8lc-I2-vy1" firstAttribute="top" secondItem="cV7-M6-lWL" secondAttribute="top" constant="8" id="Vl6-rC-Rws"/>
+                            <constraint firstItem="8b2-B7-dTB" firstAttribute="leading" secondItem="cV7-M6-lWL" secondAttribute="leading" id="dyZ-6Q-oqt"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangleYellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="hAb-sE-xqf" userLabel="triangleImageview">
+                        <rect key="frame" x="40" y="46" width="9" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="9" id="DSW-K6-sP2"/>
+                            <constraint firstAttribute="height" constant="18" id="dh6-bu-qvm"/>
+                        </constraints>
+                    </imageView>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3I-nI-Pa9" userLabel="timeLineView">
+                        <rect key="frame" x="0.0" y="0.0" width="40" height="180.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="node.png" translatesAutoresizingMaskIntoConstraints="NO" id="VG9-A9-2zF">
+                                <rect key="frame" x="12" y="47" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="IlA-Ke-fi9"/>
+                                    <constraint firstAttribute="height" constant="15" id="nvP-gX-YQu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VG9-A9-2zF" firstAttribute="centerX" secondItem="F3I-nI-Pa9" secondAttribute="centerX" id="hCR-q2-vS6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="L4v-CV-11F" firstAttribute="leading" secondItem="NEZ-GR-4f9" secondAttribute="leading" constant="1" id="3bU-DU-fte"/>
+                    <constraint firstItem="F3I-nI-Pa9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6nG-dG-8Pm"/>
+                    <constraint firstItem="L4v-CV-11F" firstAttribute="bottom" secondItem="NEZ-GR-4f9" secondAttribute="bottom" constant="-1" id="G4D-fa-Goe"/>
+                    <constraint firstAttribute="trailing" secondItem="NEZ-GR-4f9" secondAttribute="trailing" constant="20" id="JlG-27-k1g"/>
+                    <constraint firstItem="hAb-sE-xqf" firstAttribute="centerY" secondItem="NEZ-GR-4f9" secondAttribute="centerY" id="Vvz-o7-qSB"/>
+                    <constraint firstItem="cV7-M6-lWL" firstAttribute="centerY" secondItem="NEZ-GR-4f9" secondAttribute="centerY" id="WFY-2H-ymu"/>
+                    <constraint firstItem="cV7-M6-lWL" firstAttribute="leading" secondItem="NEZ-GR-4f9" secondAttribute="leading" constant="15" id="X01-jD-vLC"/>
+                    <constraint firstItem="F3I-nI-Pa9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="XZK-oJ-AI2"/>
+                    <constraint firstItem="L4v-CV-11F" firstAttribute="trailing" secondItem="NEZ-GR-4f9" secondAttribute="trailing" constant="-1" id="YZo-my-ljJ"/>
+                    <constraint firstItem="L4v-CV-11F" firstAttribute="top" secondItem="NEZ-GR-4f9" secondAttribute="top" constant="1" id="aWI-M8-9L1"/>
+                    <constraint firstAttribute="bottom" secondItem="F3I-nI-Pa9" secondAttribute="bottom" id="bKh-Tj-Czx"/>
+                    <constraint firstItem="NEZ-GR-4f9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="hoL-59-Sek"/>
+                    <constraint firstItem="hAb-sE-xqf" firstAttribute="leading" secondItem="F3I-nI-Pa9" secondAttribute="trailing" id="khN-Ob-TPs"/>
+                    <constraint firstItem="hAb-sE-xqf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="mOg-uF-6Bn"/>
+                    <constraint firstItem="VG9-A9-2zF" firstAttribute="centerY" secondItem="hAb-sE-xqf" secondAttribute="centerY" id="tGk-0t-CXo"/>
+                    <constraint firstAttribute="trailing" secondItem="cV7-M6-lWL" secondAttribute="trailing" constant="80" id="tLM-T3-9Fa"/>
+                    <constraint firstItem="NEZ-GR-4f9" firstAttribute="leading" secondItem="hAb-sE-xqf" secondAttribute="trailing" constant="-1" id="tyc-QI-M3U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="8b2-B7-dTB" id="eok-6Z-9ZY"/>
+                <outlet property="bgImageView" destination="NEZ-GR-4f9" id="bNC-Zg-n1y"/>
+                <outlet property="bgView" destination="L4v-CV-11F" id="1wo-BP-t0x"/>
+                <outlet property="timeLabel" destination="8lc-I2-vy1" id="Tgm-vK-Rsh"/>
+            </connections>
+            <point key="canvasLocation" x="246" y="44.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="node.png" width="15" height="15"/>
+        <image name="triangleYellow.png" width="9" height="18"/>
+    </resources>
+</document>
